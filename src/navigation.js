@@ -3,17 +3,17 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Home',
+      text: 'Proglearn',
       href: getPermalink('/'),
     },
     {
       text: '科普小教室',
       href: getBlogPermalink(),
     },
-    // {
-    //   text: '關於我們',
-    //   href: getPermalink('/about'),
-    // }
+    {
+      text: '關於我們',
+      href: getPermalink('/about'),
+    }
     // {
     //   text: 'Homes',
     //   links: [
