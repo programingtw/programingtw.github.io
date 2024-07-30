@@ -1,6 +1,6 @@
 site:
   name: Programing
-  site: 'https://astrowind.vercel.app'
+  site: 'https://programingtw.github.io'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Programing
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Programing 普羅程式
+    template: '%s — Programing'
+  description: "\U0001F680 Programing 普羅程式致力於改變程式教學環境"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Programing
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -28,7 +28,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: zh-tw
   textDirection: ltr
 
 apps:
